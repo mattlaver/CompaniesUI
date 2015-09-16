@@ -1,0 +1,24 @@
+{
+  "companies": [
+    {
+      "id": "a4888ab2-7f17-401a-8e80-508be3194a29",
+      "name": "SI Group",
+      "code": "III"
+    },
+    {
+      "id": "2c45f465-c9ea-4e88-aaeb-3a0c49f7d5a0",
+      "name": "Aberdeen Asset Management",
+      "code": "ADN"
+    },
+    {
+      "id": "356d7c67-5047-401a-8da0-514c38c26d08",
+      "name": "Admiral Group",
+      "code": "ADM"
+    },
+    {
+      "id": "865a6b6b-84d9-44d5-ac78-8a890c15463c",
+      "name": "Aggreko",
+      "code": "AGK"
+    }
+  ]
+}

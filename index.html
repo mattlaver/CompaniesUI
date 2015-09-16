@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div data-bind="with: companyListViewModel">
+
+    <table>
+        <tbody data-bind="foreach: companies">
+        <tr>
+            <td data-bind="text: Code"></td>
+            <td data-bind="text: Name"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+</body>
+<script src="libs/jquery-2.1.4.min.js"></script>
+<script src="libs/knockout-3.3.0.js"></script>
+<script src="js/config.js"></script>
+<script src="js/dataAccess.js"></script>
+<script src="js/companyViewModel.js"></script>
+<script src="js/ViewModels.js"></script>
+
+<script>
+    $(document).ready(function() {
+        ko.applyBindings(ViewModels.companyViewModel);
+        ViewModels.getCompanies();
+    })
+</script>
+
+</html>
